@@ -11,7 +11,7 @@ audio_files = glob("audio/*.wav")
 speed = [6,7]
 size = width, height = 1280, 780
 screen = pygame.display.set_mode(size)
-pygame.display.set_caption("dvd")
+pygame.display.set_caption("Screaming Roomba")
 clock = pygame.time.Clock()
 logo = pygame.image.load('roomba.png')
 rect = logo.get_rect()
